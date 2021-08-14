@@ -65,4 +65,8 @@ https://www.w3schools.com/html/html_paragraphs.asp
 https://www.w3schools.com/html/html_links.asp
 
 a=anchor 
-url=Uniform Resource Locator 파일식별자(위치표시), 가장 넓은 의미의 인터넷 주소
+
+> url=Uniform Resource Locator 파일식별자(위치표시), 가장 넓은 의미의 인터넷 주소
+> 인터넷 주소
+> - IP (Internet Protocol) : 숫자로 구성된 주소
+> - Domain Name : www.naver.com
