@@ -20,7 +20,7 @@ https://www.w3schools.com/html/html_intro.asp
 
 https://www.w3schools.com/html/html_elements.asp
 
-`(backtick)
+`(backtick) - 백틱 세개를쓰면 박스가 생김
 ```
 <tagname>Contents</tagname>
 ```
