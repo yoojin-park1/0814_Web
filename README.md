@@ -66,7 +66,19 @@ https://www.w3schools.com/html/html_links.asp
 
 a=anchor 
 
-> url=Uniform Resource Locator 파일식별자(위치표시), 가장 넓은 의미의 인터넷 주소
+> URL=Uniform Resource Locator 파일식별자(위치표시), 가장 넓은 의미의 인터넷 주소
 > 인터넷 주소
 > - IP (Internet Protocol) : 숫자로 구성된 주소
-> - Domain Name : www.naver.com
+> - Domain Name : www.naver.com / DNS (Domain Name Server)
+> - ex) blog.naver.com/blog/12345 => URL
+
+### HTML File Paths
+
+https://www.w3schools.com/html/html_filepaths.asp
+
+> 절대 vs 상대
+> - 경로 위치 표시 방식
+> - 경포 표시 기준의 변경 여부 (기본도메인 생략하고 ///만붙는거는 상대, 도메인 전체는 절대)
+> - 절대 경로: https://www.naver.com/blog/image.jpg
+> - 상대 경로: /blog/image.jpg || image.jpg
+
