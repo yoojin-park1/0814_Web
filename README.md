@@ -82,3 +82,75 @@ https://www.w3schools.com/html/html_filepaths.asp
 > - 절대 경로: https://www.naver.com/blog/image.jpg
 > - 상대 경로: /blog/image.jpg || image.jpg
 
+추가 메모
+
+클라이언트 서버 모델
+
+
+ios 앱 개발 > swift 언어 (front-back 공통)
+
+안드로이드 앱 개발 > kotlin 언어 (구 자바> 현 코틀린)
+
+웹(front) > html(언어,내용), css(디자인), js
+
+서버(back) > php, jsp(자바와 연결), asp, node.js, python
+
+
+rendering: 서버에서 보낸 소스코드를 브라우저가 해석하여 시각적인 사이트형태로 화면에 보여주는 것
+
+
+interpreter(언어): 한줄 한줄 소스 번역 php,jsp,asp
+
+*java와 jsp는 다름
+
+compiler(언어): 프로그래밍 언어를 통으로 번역 ex) C,C++,JAVA,C#
+
+*rendering 안에는 interpreting&compiling 작업 불포함
+
+
+깃허브 md 문법
+
+#(제목)
+
+##(소제목)
+
+###(소제목의 하위)
+
+
+head: meta info -> 사이트를 설명하는 부수적인 정보 (화면에 보이는 컨텐츠X)
+
+body: 실제 브라우저에 보이는 컨텐츠
+
+
+종료태그가 없는 태그(=empty element): <br> (노컨텐츠 태그)
+
+
+조상태그
+
+부모태그
+
+자식태그 (조상태그에서는 자손태그)
+
+*속성유전
+
+
+attribute 형태 - <시작태그="">
+
+
+<hr> Horizontal Rules 약자, 수평선 그어주는 태그
+
+<p>랑 같이쓰면 단락만큼 선 생김
+  
+
+p태그 안에서 치는 엔터/스페이스바는 여러번 눌러도 공백1칸으로만 인식됨
+  
+
+br = (line) break
+  
+&nbsp; = 공백 한칸 (여러칸 띄우고싶으면 이걸 여러번 넣으면 됨)
+  
+
+target="_blank" 새 탭 열기
+  
+*href 처럼 a 태그 안에다가 넣어서 사용
+  
