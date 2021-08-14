@@ -23,6 +23,8 @@ https://www.w3schools.com/html/html_elements.asp
 `(backtick) - 백틱 세개를쓰면 박스가 생김
 ```
 <tagname>Contents</tagname>
+
+* 시작 태그만 있는 경우 : Empty Element
 ```
 
 > 포함관계(Nested)
