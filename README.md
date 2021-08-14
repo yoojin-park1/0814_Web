@@ -65,3 +65,4 @@ https://www.w3schools.com/html/html_paragraphs.asp
 https://www.w3schools.com/html/html_links.asp
 
 a=anchor 
+url=Uniform Resource Locator 파일식별자(위치표시), 가장 넓은 의미의 인터넷 주소
