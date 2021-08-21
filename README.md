@@ -6,6 +6,8 @@ https://codesandbox.io/
 
 https://www.w3schools.com/
 
+https://github.com/edu-ministori/frontend_08
+
 ## HTML
 
 ### Introduction
