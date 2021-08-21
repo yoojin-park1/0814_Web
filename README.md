@@ -84,6 +84,38 @@ https://www.w3schools.com/html/html_filepaths.asp
 > - 절대 경로: https://www.naver.com/blog/image.jpg
 > - 상대 경로: /blog/image.jpg || image.jpg
 
+### HTML Lists
+
+https://www.w3schools.com/html/html_lists.asp
+
+> 중첩목록 (Nested List)
+
++ 추가 메모
+
+원페이지에서 위치 이동은 북마크 기능을 이용해서 한다.
+북마크를 이용할때는 이동 위치를 id값으로 정의한다.
+
+unordered list > ul
+ordered list > ol
+
+ul과 ol 안에는 li (list item) 태그로 한 항목씩 넣는다.
+ol 태그를 사용하면 자동으로 1. 2. 3. 으로 순서가 붙는다.
+
+제목태그는 h1~h6 까지있음
+숫자가 작을수록 큰제목
+
+a태그를 넣을때는 li 안으로 들어가야함
+
+https://ko.wikipedia.org/wiki/HTMLhttps://ko.wikipedia.org/wiki/HTML
+
+여기에 있는 목차 만들기 연습 (숙제)
+
+### HTML Table
+
+https://www.w3schools.com/html/html_tables.asp
+
+Table Generator : https://www.tablesgenerator.com/html_tables
+
 추가 메모
 
 클라이언트 서버 모델
