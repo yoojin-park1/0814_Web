@@ -154,6 +154,9 @@ https://www.w3schools.com/html/html_youtube.asp
 유투브 영상 음소거/자동재생 하는 법
 -> 아이프레임 내 유투브 링크 뒤에 ?autoplay=1&mute=1 추가
 
+웹사이트 템플릿 참고 사이트
+https://freebiesbug.com/psd-freebies/website-template/
+
 
 추가 메모
 
