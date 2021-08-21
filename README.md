@@ -116,7 +116,43 @@ https://www.w3schools.com/html/html_tables.asp
 
 Table Generator : https://www.tablesgenerator.com/html_tables
 
+### HTML Images
 
+https://www.w3schools.com/html/html_images.asp
+
+alt="" > 이미지가 화면에 보이지 않을 때 텍스트로 대신 표현 (=alternative)
+img 는 종료태그 없음 (empty element)
+
+### HTML Videos
+
+https://www.w3schools.com/html/html5_video.asp
+
+video 태그 삽입
+<video width="320" height="240" controls>
+  <source src="movie.mp4" type="video/mp4">
+</video>
+
+** controls 도 attribute 이나 =""없이 이름만 쓴다. 기능은 영상에 재생버튼 나타나게 함
+
+비디오에 쓸수있는 어트리뷰트 참고 (주요 controls autoplay muted loop)
+https://www.w3schools.com/tags/tag_video.asp
+
+크롬 정책 상 오디오포함 자동재생은 불가 / 영상만 자동재생 가능
+-> muted 를 추가하면 자동재생 가능
+
+<video controls autoplay muted loop>
+      <source
+        src="https://www.w3schools.com/html/mov_bbb.mp4"
+        type="video/mp4"
+      />
+    </video>
+
+### HTML Youtube
+
+https://www.w3schools.com/html/html_youtube.asp
+
+유투브 영상 음소거/자동재생 하는 법
+-> 아이프레임 내 유투브 링크 뒤에 ?autoplay=1&mute=1 추가
 
 
 추가 메모
