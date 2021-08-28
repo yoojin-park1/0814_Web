@@ -268,3 +268,6 @@ https://www.w3schools.com/html/html_classes.asp
 > 웹에서 사용하는 폰트는 브라우저에서 렌더링 되기 때문에 기존에는 사용자 pc에 설치되어 있는 폰트를 사용
 > 사용자 pc에 설치된 폰트를 찾지 않고 서버에 폰트를 저장해서 사용하는 방식 -> 웹폰트 방식
 
+> 웹폰트 서비스:
+> Google Fonts https://fonts.google.com/?subset=korean
+> 눈누 https://noonnu.cc/index
