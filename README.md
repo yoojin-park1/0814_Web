@@ -17,6 +17,7 @@ https://www.w3schools.com/html/html_intro.asp
 > 웹 페이지 구조 표시
 
 > 웹 페이지 컨텐츠 표시
+>
 > - 텍스트 컨텐츠
 > - 멀티미디어 컨텐츠 : 이미지, 비디오, 오디오 등
 
@@ -25,6 +26,7 @@ https://www.w3schools.com/html/html_intro.asp
 https://www.w3schools.com/html/html_elements.asp
 
 `(backtick) - 백틱 세개를쓰면 박스가 생김
+
 ```
 <tagname>Contents</tagname>
 
@@ -32,6 +34,7 @@ https://www.w3schools.com/html/html_elements.asp
 ```
 
 > 포함관계(Nested)
+
 ```
 <html>
   <body>
@@ -41,11 +44,11 @@ https://www.w3schools.com/html/html_elements.asp
 ```
 
 > html-body-h1 관계
-> 
+>
 > html : body와 관계 - 부모요소 / h1과 관계 - 조상요소
-> 
+>
 > body : html과 관계 - 자식요소 / h1과 관계 - 부모요소
-> 
+>
 > h1 : body와 관계 - 자식요소 / html과 관계 - 자손요소
 
 ### HTML Attribute
@@ -66,10 +69,11 @@ https://www.w3schools.com/html/html_paragraphs.asp
 
 https://www.w3schools.com/html/html_links.asp
 
-a=anchor 
+a=anchor
 
 > URL=Uniform Resource Locator 파일식별자(위치표시), 가장 넓은 의미의 인터넷 주소
 > 인터넷 주소
+>
 > - IP (Internet Protocol) : 숫자로 구성된 주소
 > - Domain Name : www.naver.com / DNS (Domain Name Server)
 > - ex) blog.naver.com/blog/12345 => URL
@@ -79,6 +83,7 @@ a=anchor
 https://www.w3schools.com/html/html_filepaths.asp
 
 > 절대 vs 상대
+>
 > - 경로 위치 표시 방식
 > - 경포 표시 기준의 변경 여부 (기본도메인 생략하고 ///만붙는거는 상대, 도메인 전체는 절대)
 > - 절대 경로: https://www.naver.com/blog/image.jpg
@@ -90,7 +95,7 @@ https://www.w3schools.com/html/html_lists.asp
 
 > 중첩목록 (Nested List)
 
-+ 추가 메모
+- 추가 메모
 
 원페이지에서 위치 이동은 북마크 기능을 이용해서 한다.
 북마크를 이용할때는 이동 위치를 id값으로 정의한다.
@@ -129,10 +134,11 @@ https://www.w3schools.com/html/html5_video.asp
 
 video 태그 삽입
 <video width="320" height="240" controls>
+
   <source src="movie.mp4" type="video/mp4">
 </video>
 
-** controls 도 attribute 이나 =""없이 이름만 쓴다. 기능은 영상에 재생버튼 나타나게 함
+\*\* controls 도 attribute 이나 =""없이 이름만 쓴다. 기능은 영상에 재생버튼 나타나게 함
 
 비디오에 쓸수있는 어트리뷰트 참고 (주요 controls autoplay muted loop)
 https://www.w3schools.com/tags/tag_video.asp
@@ -157,11 +163,9 @@ https://www.w3schools.com/html/html_youtube.asp
 웹사이트 템플릿 참고 사이트
 https://freebiesbug.com/psd-freebies/website-template/
 
-
 추가 메모
 
 클라이언트 서버 모델
-
 
 ios 앱 개발 > swift 언어 (front-back 공통)
 
@@ -171,18 +175,15 @@ ios 앱 개발 > swift 언어 (front-back 공통)
 
 서버(back) > php, jsp(자바와 연결), asp, node.js, python
 
-
 rendering: 서버에서 보낸 소스코드를 브라우저가 해석하여 시각적인 사이트형태로 화면에 보여주는 것
-
 
 interpreter(언어): 한줄 한줄 소스 번역 php,jsp,asp
 
-*java와 jsp는 다름
+\*java와 jsp는 다름
 
 compiler(언어): 프로그래밍 언어를 통으로 번역 ex) C,C++,JAVA,C#
 
-*rendering 안에는 interpreting&compiling 작업 불포함
-
+\*rendering 안에는 interpreting&compiling 작업 불포함
 
 깃허브 md 문법
 
@@ -192,14 +193,11 @@ compiler(언어): 프로그래밍 언어를 통으로 번역 ex) C,C++,JAVA,C#
 
 ###(소제목의 하위)
 
-
 head: meta info -> 사이트를 설명하는 부수적인 정보 (화면에 보이는 컨텐츠X)
 
 body: 실제 브라우저에 보이는 컨텐츠
 
-
 종료태그가 없는 태그(=empty element): <br> (노컨텐츠 태그)
-
 
 조상태그
 
@@ -207,38 +205,33 @@ body: 실제 브라우저에 보이는 컨텐츠
 
 자식태그 (조상태그에서는 자손태그)
 
-*속성유전
-
+\*속성유전
 
 attribute 형태 - <시작태그="">
-
 
 <hr> Horizontal Rules 약자, 수평선 그어주는 태그
 
 <p>랑 같이쓰면 단락만큼 선 생김
-  
 
 p태그 안에서 치는 엔터/스페이스바는 여러번 눌러도 공백1칸으로만 인식됨
-  
 
 br = (line) break
-  
-&nbsp; = 공백 한칸 (여러칸 띄우고싶으면 이걸 여러번 넣으면 됨)
-  
 
-target="_blank" 새 탭 열기
-  
-*href 처럼 a 태그 안에다가 넣어서 사용
-  
-  
+&nbsp; = 공백 한칸 (여러칸 띄우고싶으면 이걸 여러번 넣으면 됨)
+
+target="\_blank" 새 탭 열기
+
+\*href 처럼 a 태그 안에다가 넣어서 사용
+
 ### HTML Block & inline
+
 https://www.w3schools.com/html/html_blocks.asp
 
 > 영역의 특성
 >
 > - 블럭요소 : 가로길이 - 부모요소에 채워짐 / 세로길이 - 자식요소에 맞춰짐
 > - 인라인 요소 : 가로길이와 세로길이 모두 자식요소에 맞춰짐
-  
+
 > 포함관계
 
 > 블럭요소 : 다른 블럭요소, 인라인 요소, 콘텐츠 포함 가능
@@ -246,6 +239,7 @@ https://www.w3schools.com/html/html_blocks.asp
 > 예외 : a - 인라인 요소이지만 블럭 요소를 포함 가능
 
 ### HTML Id & Class
+
 https://www.w3schools.com/html/html_id.asp
 
 https://www.w3schools.com/html/html_classes.asp
@@ -258,16 +252,107 @@ https://www.w3schools.com/html/html_classes.asp
 
 > class로 붙여주는 이름은 한 HTML문서내에서 여러번 중복 사용할 있음.
 > class는 한 대상의 HTML Element에 여러개의 이름을 지정할 수 있음.
-  
+
 ### CSS 상속
 
 > 부모요소에 적용된 CSS 속성이 자식요소에 적용되는 것을 상속이라고 한다.
 
-### Web Font
+### CSS Text
 
+https://www.w3schools.com/css/css_text.asp
+
+> - color
+> - text-align
+> - text-decoration
+> - letter-spacing
+> - line-height
+
+### CSS Fonts
+
+https://www.w3schools.com/css/css_font.asp
+
+> Web Font
 > 웹에서 사용하는 폰트는 브라우저에서 렌더링 되기 때문에 기존에는 사용자 pc에 설치되어 있는 폰트를 사용
 > 사용자 pc에 설치된 폰트를 찾지 않고 서버에 폰트를 저장해서 사용하는 방식 -> 웹폰트 방식
 
 > 웹폰트 서비스:
 > Google Fonts https://fonts.google.com/?subset=korean
 > 눈누 https://noonnu.cc/index
+
+<!-- <link rel="stylesheet" href="css/style.css" /> -->
+
+> font-family
+>
+> - 항상 폰트 목록 끝에 기본 폰트 이름(ex) sans-serif;)을 입력해야 함
+> - 고딕 : sans-serif; 명조 : serif;
+>
+> font-size - em
+>
+> font-style - italic
+>
+> font-weight - 100,200,300 ...etc / bold
+
+### Box Model
+
+https://www.w3schools.com/css/css_boxmodel.asp
+
+> - Content (width/height) : 컨텐츠의 너비 또는 높이
+> - Padding : 안쪽 여백
+> - Border : 테두리
+> - Margin : 바깥쪽 여백
+
+### Height / Width
+
+> - 블럭요소의 가로길이, 세로길이 적용시
+> - auto : 요소의 기본 특성을 따라 감 / default 값 : 적용하지 않은 상태와 같음
+> - px : px 값으로 고정
+> - % : 부모 요소를 기준으로 특정 비율만큼 설정
+> - 인라인 요소에는 가로/세로 길이는 적용되지 않음 / inline-block 필요
+
+### padding
+
+> - padding-top / padding-right / padding-bottom / padding-left
+> - padding: 10px 10px 10px 10px ; (위 / 우 / 아래 / 좌)
+> - padding: 10px 10px 10px ; (위 / 좌우 / 아래)
+> - padding: 10px 10px ; (위아래 / 좌우)
+> - padding: 10px ; (4방향)
+
+### margin
+
+> margin collapse (마진 겹침) : 인접한 두개의 요소가 둘다 마진을 갖고 있으면 마진겹침 현상으로인해 여백이 +되는것이아니라,더 넓은쪽 마진만 적용된다.
+> 해결방법: 한쪽에만 마진 적용
+
+### border
+
+> 보더 먹일때는 아래 3가지 요소를 써야하고, border : 1px solid black; 처럼 축약해서 쓸 수도 있다.
+>
+> - border-width - 굵기
+> - border-style (required) - 선 스타일
+> - border-color - 색상
+
+### Background
+
+https://www.w3schools.com/css/css_background.asp
+
+> background-color
+>
+> background-image : url("")
+
+### Color 표현 방식
+
+> RGB : Red Green Blue - 가산혼합
+>
+> - 스크린에서 컬러 표현
+>
+> CMYK : Cyan Magenta Yellow Black - 감산혼합
+>
+> - 프린터에서 컬러 표현
+>
+> color 코드 값
+>
+> - 10 진수 표현 : rgb (255, 255, 255)
+> - 16 진수 표현 : #000000
+
+### box-sizing
+
+> box-sizing: border-box => width / height 가 박스의 전체 길이가 됨 (패딩,마진,보더를 박스 총 너비 높이 안에서 브라우저가 자동으로 조정)
