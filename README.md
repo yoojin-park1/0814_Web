@@ -230,3 +230,31 @@ target="_blank" 새 탭 열기
   
 *href 처럼 a 태그 안에다가 넣어서 사용
   
+  
+### HTML Block & inline
+https://www.w3schools.com/html/html_blocks.asp
+
+> 영역의 특성
+>
+> - 블럭요소 : 가로길이 - 부모요소에 채워짐 / 세로길이 - 자식요소에 맞춰짐
+> - 인라인 요소 : 가로길이와 세로길이 모두 자식요소에 맞춰짐
+  
+> 포함관계
+
+> 블럭요소 : 다른 블럭요소, 인라인 요소, 콘텐츠 포함 가능
+> 인라인 요소 : 다른 인라인 요소, 콘텐츠 포함 가능, 블럭요소는 포함 불가능
+> 예외 : a - 인라인 요소이지만 블럭 요소를 포함 가능
+
+### HTML Id & Class
+https://www.w3schools.com/html/html_id.asp
+
+https://www.w3schools.com/html/html_classes.asp
+
+> id attribute
+
+> id로 붙여주는 이름은 한 HTML 문서내에서 고유해야 함.(한번만 사용)
+> id는 한 대상의 HTML Element에 하나의 이름만 지정할 수 있음.
+> class attribute
+
+> class로 붙여주는 이름은 한 HTML문서내에서 여러번 중복 사용할 있음.
+> class는 한 대상의 HTML Element에 여러개의 이름을 지정할 수 있음.
